@@ -1,0 +1,654 @@
+{
+  "resourceType": "Parameters",
+     "parameter": [ {
+        "name": "resources",
+         "resource": {
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "id": "TLAsiQXC3WlPGLEoSKMe.FvJWdE9yU9rpRK9VQ4Zste0B",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TLAsiQXC3WlPGLEoSKMe.FvJWdE9yU9rpRK9VQ4Zste0B"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "26515-7",
+              "display": "Platelets [#/volume] in Blood"
+            }
+          ],
+          "text": "POC PLATELET COUNT"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2012-10-27T18:45:00Z",
+        "valueQuantity": {
+          "value": 210,
+          "unit": "per milliliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "/mL"
+        }
+      }
+    },
+    {
+      "id": "TYcTop.0vJsGrmR-BIgypXCcYN1Qpj2h5rH00.Fo-y1QB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TYcTop.0vJsGrmR-BIgypXCcYN1Qpj2h5rH00.Fo-y1QB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "4548-4"
+            }
+          ],
+          "text": "HEMOGLOBIN A1C/HEMOGLOBIN TOTAL IN BLOOD"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2006-07-07T14:50:00Z",
+        "valueQuantity": {
+          "value": 7.1,
+          "unit": "percent volume",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "interpretation": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/observation-interpretation",
+              "code": "A",
+              "display": "Abnormal"
+            }
+          ],
+          "text": "Abnormal"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.8,
+              "unit": "%",
+              "system": "http://unitsofmeasure.org",
+              "code": "%"
+            },
+            "high": {
+              "value": 6.4,
+              "unit": "%",
+              "system": "http://unitsofmeasure.org",
+              "code": "%"
+            },
+            "text": "3.8 - 6.4 %"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TyTACVT8EN3y297LJpmHOTRzwSjv9b2P1BFGIE-mjMUIB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TyTACVT8EN3y297LJpmHOTRzwSjv9b2P1BFGIE-mjMUIB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "HEMOGLOBIN BLOOD GAS"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2010-02-20T17:34:00Z",
+        "valueQuantity": {
+          "value": 15,
+          "unit": "gram per deciliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dl"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "unit": "gram per deciliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "high": {
+              "value": 17.5,
+              "unit": "gram per deciliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "text": "13.5 - 17.5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TSTSVo6iPXJ550gR.dzbEwPwQ.OgtmL46.qNOys3T3PEB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TSTSVo6iPXJ550gR.dzbEwPwQ.OgtmL46.qNOys3T3PEB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "HEMOGLOBIN BLOOD GAS"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2009-03-18T15:49:00Z",
+        "valueQuantity": {
+          "value": 13.9,
+          "unit": "gram per deciliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dl"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "unit": "g/dl",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "high": {
+              "value": 17.5,
+              "unit": "g/dl",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "text": "13.5 - 17.5 g/dl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TYCUjrj3QX46ruuAzS4KssuUDL-z1qDLMd10e2t5uW0YB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TYCUjrj3QX46ruuAzS4KssuUDL-z1qDLMd10e2t5uW0YB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "HEMOGLOBIN BLOOD GAS"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2007-07-25T15:49:00Z",
+        "valueQuantity": {
+          "value": 14.4,
+          "unit": "gram per deciliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dl"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "unit": "g/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dL"
+            },
+            "high": {
+              "value": 17.5,
+              "unit": "g/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dL"
+            },
+            "text": "13.5 - 17.5 g/dL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TmkRWk0ZaNDkgPXzKZxGkwdslHYFIXs3jc9qqCzVJrWsB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TmkRWk0ZaNDkgPXzKZxGkwdslHYFIXs3jc9qqCzVJrWsB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "HEMOGLOBIN BLOOD GAS"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2006-07-07T14:43:00Z",
+        "valueQuantity": {
+          "value": 14.1,
+          "unit": "gram per deciliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dl"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "unit": "g/dl",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "high": {
+              "value": 17.5,
+              "unit": "g/dl",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "text": "13.5 - 17.5 g/dl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TilEpnEc2JSAPBX9OZuAvb8lJpBBns1vqmnK8DZKy4AIB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TilEpnEc2JSAPBX9OZuAvb8lJpBBns1vqmnK8DZKy4AIB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "718-7"
+            }
+          ],
+          "text": "HEMOGLOBIN (G/DL) IN BLOOD"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2012-10-19T21:26:00Z",
+        "valueQuantity": {
+          "value": 15,
+          "unit": "gram per deciliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dl"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "unit": "g/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dL"
+            },
+            "high": {
+              "value": 17.5,
+              "unit": "g/dL",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dL"
+            },
+            "text": "13.5 - 17.5 g/dL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TDJDQ1SGKpTxooOqzhg-DwF2gYqmwRfJDubWl5ayepbUB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TDJDQ1SGKpTxooOqzhg-DwF2gYqmwRfJDubWl5ayepbUB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "718-7"
+            }
+          ],
+          "text": "HEMOGLOBIN (G/DL) IN BLOOD"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2009-03-12T12:45:00Z",
+        "valueQuantity": {
+          "value": 15,
+          "unit": "gram per deciliter",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/dl"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "unit": "gram per deciliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "high": {
+              "unit": "gram per deciliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/dl"
+            },
+            "text": "g/dL"
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "TilEpnEc2JSAPBX9OZuAvbwviiGX2bFWkYPwwo3LdMSwB",
+      "resource": {
+        "resourceType": "Observation",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v2/0203",
+                  "version": "1.0.2",
+                  "code": "PT"
+                }
+              ]
+            },
+            "system": "https://www.ibm.com/watson/health/",
+            "value": "TilEpnEc2JSAPBX9OZuAvbwviiGX2bFWkYPwwo3LdMSwB"
+          }
+        ],
+        "status": "final",
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "version": "1.0.2",
+              "code": "laboratory",
+              "display": "Laboratory"
+            }
+          ],
+          "text": "Laboratory"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "version": "2.61",
+              "code": "6690-2"
+            }
+          ],
+          "text": "LEUKOCYTES(10*3/UL) IN BLOOD BY AUTOMATED COUNT"
+        },
+        "subject": {
+          "reference": "Patient/c7091913-2d95-4097-aa3d-b45f9b559e84",
+          "display": "Theodore Mychart"
+        },
+        "effectiveDateTime": "2012-10-19T21:26:00Z",
+        "valueQuantity": {
+          "value": 5.5,
+          "unit": "10^3/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "10^3/mL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "system": "http://unitsofmeasure.org"
+            },
+            "high": {
+              "system": "http://unitsofmeasure.org"
+            },
+            "text": "10^3/mL"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+
+
+             } ]
+         }
